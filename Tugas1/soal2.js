@@ -1,30 +1,21 @@
-const mtk = 80;
-const bahasaIndonesia = 90;
-const bahasaInggirs = 89;
-const ipa = 69;
 
 const validasi=()=>{
-    if(mtk===""){
+    const mtk = 80;
+    const bahasaIndonesia = 90;
+    const bahasaInggirs = 89;
+    const ipa = 69;
+    if(typeof mtk===null){
        return console.log("masukan nilai");
     }
-    else if(bahasaIndonesia===""){
+    else if( typeof bahasaIndonesia===null){
       return  console.log("masukan nilai");
     }
-    else if(bahasaInggirs===""){
+    else if(typeof bahasaInggirs===null){
         return console.log("masukan nilai");
     }
-    else if(ipa===""){
+    else if( typeof ipa===null){
        return console.log("masukan nilai");
     }
 }
 
-const rataRata = (mtk + bahasaIndonesia + bahasaInggirs + ipa) / 4;
-
-console.log(rataRata);
-
-const checkpassingGrade=(grade)=>
-{
-    if(grade>=90){
-
-    }
-}
+validasi()

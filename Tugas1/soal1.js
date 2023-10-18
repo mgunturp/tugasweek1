@@ -1,8 +1,8 @@
 const name = "Guntur Pratama"
 const age = 24
-const hobbies = [gaming, coding, photography]
+const hobbies = ["gaming", "coding", "photography"]
 const IsMarried = false
-const schoolList = [
+let schoolList = [
     {
         name : "SD Rancaloa",
         yearIn : 2006,
@@ -19,7 +19,7 @@ const schoolList = [
         name : "SMKN 4 Bandung",
         yearIn : 2014,
         yearOut : 2017,
-        major : null
+        major : "Automation Industry"
     },
 ]
 const skills = [
