@@ -8,7 +8,6 @@ const print=()=>{
         }
         console.log(s);
     }
-    
     }
     else{
         console.log("Data harus number");

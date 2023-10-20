@@ -1,21 +1,27 @@
+const hitungNilai=(matematika, bahasaIndonesia, bahasaInggris, ipa)=> 
+{
+  if (matematika && bahasaIndonesia && bahasaInggris && ipa) {
+    
+  let rataRata = (matematika + bahasaIndonesia + bahasaInggris + ipa) / 4
 
-const validasi=()=>{
-    const mtk = 80;
-    const bahasaIndonesia = 90;
-    const bahasaInggirs = 89;
-    const ipa = 69;
-    if(typeof mtk===null){
-       return console.log("masukan nilai");
-    }
-    else if( typeof bahasaIndonesia===null){
-      return  console.log("masukan nilai");
-    }
-    else if(typeof bahasaInggirs===null){
-        return console.log("masukan nilai");
-    }
-    else if( typeof ipa===null){
-       return console.log("masukan nilai");
-    }
+  let grade;
+  if (rataRata >= 90 && rataRata <= 100) {
+    grade = 'A';
+  } else if (rataRata >= 80 && rataRata < 90) {
+    grade = 'B';
+  } else if (rataRata >= 70 && rataRata < 80) {
+    grade = 'C';
+  } else if (rataRata >= 60 && rataRata < 70) {
+    grade = 'D';
+  } else {
+    grade = 'E';
+  }
+
+  console.log(`Rata-rata = ${rataRata}`);
+  console.log(`Grade = ${grade}`);
+  return   
+  }else{
+    console.log('Semua nilai harus diisi');
+  }
 }
-
-validasi()
+hitungNilai(90,80,50,40)

@@ -18,7 +18,7 @@ let newData={
     ...data,
     name:"Guntur",
     email:"falconrry123@gmail.com",
-    hobby:"gaming"
+    hobby:["gaming","coding"]
 }
 console.log(newData);
       
