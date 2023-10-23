@@ -24,4 +24,4 @@ const hitungNilai=(matematika, bahasaIndonesia, bahasaInggris, ipa)=>
     console.log('Semua nilai harus diisi');
   }
 }
-hitungNilai(90,80,50,40)
+hitungNilai(90,80,50,20)
