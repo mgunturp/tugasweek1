@@ -1,29 +1,17 @@
-// 1. indexOf(): Metode ini digunakan untuk mencari indeks pertama suatu elemen dalam array atau string.
+// 1. indexOf(): Metode ini digunakan untuk mencari indeks pertama suatu elemen dalam array.
 console.log();
 const fruits = ["apel", "pisang", "melon", "semangka"];
 const index = fruits.indexOf("melon");
 console.log(`hasil dari indexOF: ${index} `);
 
 
-const text = 'Halo, saya adalah seorang programmer';
-const index1 = text.indexOf('programmer');
-console.log(`hasil dari indexOF(string): ${index1} `);
-
-
-/* 2. slice(): Metode ini digunakan untuk membuat salinan sebagian dari array atau string berdasarkan indeks 
+/* 2. slice(): Metode ini digunakan untuk membuat salinan sebagian dari array berdasarkan indeks 
 awal dan akhir yang ditentukan */
 
 
 const numbers = [1,2,3,4,5]
 const sliced = numbers.slice(1,3)
 console.log(`hasil dari sliced: ${sliced} `);
-
-// contoh penggunaan string
-
-const text1 = 'saya menggunakan bahasa pemograman javascript'
-const sliced1 = text1.slice(17, 23)
-console.log(`hasil dari sliced(string): ${sliced1} `);
-
 
 
 /* 3. push(): Metode ini digunakan untuk menambahkan satu atau 
@@ -69,7 +57,7 @@ console.log(`hasil dari toUpperCase: ${text2} `);
 /* 8. toLowerCase(): Metode ini digunakan pada string untuk mengubah semua karakter menjadi huruf kecil. */
 
 const text3 = 'INI ADALAH CONTOH TEKS';
-const lowercaseText = text.toLowerCase();
+const lowercaseText = text3.toLowerCase();
 console.log(`hasil dari toLowerCase: ${text3} `);
 
 /* 9. toFixed(): Metode ini digunakan pada angka floating-point untuk membulatkan angka desimal 

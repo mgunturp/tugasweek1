@@ -6,15 +6,15 @@ const names = [
     "Ella", "Faith", "Olivia", "Penelope"
   ];
   
-  function searchName(query, limit, callback) {
-    const results = names.filter(name => name.toLowerCase().includes(query.toLowerCase()));
+  const cariNama=(nama, limit, callback)=> {
+    const results = names.filter(name => name.toLowerCase().includes(nama.toLowerCase()));
     const limitedResults = results.slice(0, limit);
     callback(limitedResults);
 }
 
-function displayResults(results) {
+const hasil=(results)=> {
     console.log(results);
   }
   
-  searchName("ca", 3, displayResults);
+  cariNama("am", 3, hasil);
   
